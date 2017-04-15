@@ -11,10 +11,13 @@ import UIKit
 class ViewController: UIViewController {
     
     let userName = "dummyUserChanged"
-
+    var traceCall = "Test 1, 2, 3"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        traceCall = "Manager"
     }
 
     override func didReceiveMemoryWarning() {
